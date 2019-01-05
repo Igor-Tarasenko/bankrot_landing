@@ -1,0 +1,42 @@
+.section-9 {
+	background: #ffffff;
+	padding: 50px 0;
+	h2 {
+		font-family: $montserrat-font;
+		font-size: 42px;
+		font-weight: bold;
+		color: #333333;
+		line-height: 48px;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+	.question {
+		background: #f1f9fb;
+		padding: 20px;
+		margin-bottom: 10px;
+		.spoiler-title {
+			background: url("../img/big-block.png") no-repeat right center;
+			padding-right: 50px;
+			cursor: pointer;
+			p {
+				font-family: $open-font;
+				font-size: 18px;
+				color: #333333;
+				font-weight: bold;
+			}
+		}
+		.spoiler-body {
+			display: none;
+			p {
+				font-family: $open-font;
+				font-size: 16px;
+				color: #333333;
+				margin-top: 20px;
+			}
+		}
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

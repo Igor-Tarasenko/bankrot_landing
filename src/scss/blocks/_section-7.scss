@@ -1,0 +1,68 @@
+.section-7 {
+	background: url("../img/waves.png");
+	background-size: cover;
+	padding: 70px 0 50px 0;
+	position: relative;
+	z-index: 10;
+	border-bottom-right-radius: 50% 109px;
+	border-bottom-left-radius: 50% 111px;
+	h2 {
+		font-family: $montserrat-font;
+		font-size: 42px;
+		line-height: 46px;
+		color: #333333;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 40px;
+	}
+	h3 {
+		font-family: $montserrat-font;
+		font-size: 24px;
+		color: #333333;
+		line-height: 30px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	p {
+		font-family: $open-font;
+		font-size: 16px;
+		color: #333333;
+		margin-bottom: 25px;
+	}
+	.result {
+		background: #e7f8f7;
+		padding: 30px 15px;
+		.result-block {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 15px;
+		}
+		.bg-img {
+			margin-right: 15px;
+		}
+		.first-img {
+			background: url("../img/paper.png") no-repeat;
+			width: 37px;
+			height: 46px;
+		}
+		.second-img {
+			background: url("../img/man-with-money.png") no-repeat;
+			width: 50px;
+			height: 50px;
+		}
+		.third-img {
+			background: url("../img/molot.png") no-repeat;
+			width: 46px;
+			height: 46px;
+		}
+	}
+	.bold-text {
+		font-family: $open-font;
+		color: #333333;
+		text-align: center;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-top: 20px;
+	}
+}

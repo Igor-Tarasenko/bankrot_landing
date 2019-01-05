@@ -1,0 +1,53 @@
+.section-6 {
+	background: #f1f9fb;
+	padding: 50px 0;
+	h2 {
+		font-family: $montserrat-font;
+		font-size: 42px;
+		font-weight: bold;
+		color: #333333;
+		line-height: 48px;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+	p {
+		margin-bottom: 20px;
+		font-family: $open-font;
+		font-size: 16px;
+		color: #333333;
+	}
+	.steps {
+		background: #ffffff;
+		min-height: 383px;
+		padding: 0 15px 20px 15px;
+		border-bottom: 1px solid #3bc6ec;
+		margin-top: 50px;
+	}
+	.steps-block {
+		background: url("../img/border-2-bg.png") no-repeat top center;
+	}
+	.steps-block_description {
+		p {
+			font-family: $montserrat-font;
+			font-size: 42px;
+			font-weight: bold;
+			color: #3bc6ec;
+			text-align: center;
+			line-height: 18px;
+			padding-top: 17px;
+			span {
+				font-size: 18px;
+				text-transform: uppercase;
+			}
+		}
+	}
+	.steps-block_text {
+		margin-top: 64px;
+		p {
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

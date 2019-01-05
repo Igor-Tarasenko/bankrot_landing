@@ -1,0 +1,82 @@
+.section-2 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	h2 {
+		font-family: $montserrat-font;
+		font-size: 42px;
+		text-transform: uppercase;
+		font-weight: 900;
+		color: #333333;
+		line-height: 48px;
+	}
+	.section-2_border {
+		margin-top: 10px;
+		border: 1px solid #01c0bb;
+		border-radius: 5px;
+		padding: 9px 0;
+		margin-bottom: 50px;
+		p {
+			font-size: 18px;
+			font-family: $montserrat-font;
+			font-weight: 900;
+			color: #333333;
+			text-align: center;
+		}
+	}
+	.section-2_our-company, .section-2_other-company {
+		p {
+			font-family: $montserrat-font;
+			font-weight: 900;
+			color: #333333;
+			font-size: 18px;
+			text-transform: uppercase;
+			margin-bottom: 20px;
+			padding-left: 54px;
+		}
+		ul {
+			list-style-type: none;
+			padding-left: 14px;
+			li {
+				background: url("../img/dots-3.png") no-repeat 0 7px;
+				padding-left: 40px;
+				margin-bottom: 20px;
+				p {
+					font-family: $montserrat-font;
+					font-size: 15px;
+					font-weight: normal;
+					text-transform: none;
+					margin-bottom: 0;
+					padding-left: 0;
+					&:first-child {
+						font-weight: bold;
+					}
+				}
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+	.section-2_other-company {
+		p {
+			font-weight: normal;
+		}
+		ul {
+			li {
+				background: url("../img/dots-4.png") no-repeat 0 7px;
+			}
+		}
+	}
+	.section-2_description {
+		margin-top: 50px;
+		p {
+			font-family: $montserrat-font;
+			font-size: 15px;
+			font-weight: normal;
+			color: #333333;
+			&:first-child {
+				margin-bottom: 20px;
+			}
+		}
+	}
+}

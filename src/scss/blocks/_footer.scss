@@ -1,0 +1,47 @@
+footer {
+	background: #ffffff;
+	padding: 20px 0;
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+		text-align: right;
+		width: 100%;
+		li {
+			display: inline-block;
+			margin-right: 10px;
+		}
+	}
+}
+.social-icon {
+	display: block;
+	width: 44px;
+	height: 44px;
+}
+.telegram {
+	background: url("../img/telegram.png") no-repeat center;
+	background-size: contain;
+}
+.facebook {
+	background: url("../img/facebook.png") no-repeat center;
+	background-size: contain;
+}
+.vk {
+	background: url("../img/vk.png") no-repeat center;
+	background-size: contain;
+}
+.google {
+	background: url("../img/google.png") no-repeat center;
+	background-size: contain;
+}
+.skype {
+	background: url("../img/skype.png") no-repeat center;
+	background-size: contain;
+}
+.phone {
+	background: url("../img/phone.png") no-repeat center;
+	background-size: contain;
+}
+.instagram {
+	background: url("../img/instagram.png") no-repeat center;
+	background-size: contain;
+}

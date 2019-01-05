@@ -1,0 +1,64 @@
+.section-8, .section-10 {
+	background: #173545;
+	position: relative;
+	z-index: 0;
+	margin-top: -108px;
+	padding-top: 158px;
+	padding-bottom: 30px;
+	h2 {
+		font-family: $montserrat-font;
+		font-size: 42px;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-align: center;
+		line-height: 48px;
+		color: #3bc6ec;
+	}
+	h3 {
+		font-family: $montserrat-font;
+		font-size: 24px;
+		text-transform: uppercase;
+		text-align: center;
+		line-height: 30px;
+		color: #ffffff;
+		font-weight: 100;
+	}
+	.stages {
+		margin-top: 30px;
+		p {
+			font-size: 16px;
+			font-family: $open-font;
+			font-weight: bold;
+			color: #ffffff;
+			text-align: center;
+		}
+	}
+	.stages_img {
+		margin-bottom: 15px;
+	}
+	.stage-one {
+		background: url("../img/question.png") no-repeat center;
+		background-size: contain;
+		height: 44px;
+	}
+	.stage-two {
+		background: url("../img/man-3.png") no-repeat center;
+		background-size: contain;
+		height: 44px;
+	}
+	.stage-three {
+		background: url("../img/mind.png") no-repeat center;
+		background-size: contain;
+		height: 44px;
+	}
+	.text-block {
+		margin: 35px 0 15px 0;
+	}
+}
+.section-10 {
+	margin-top: 0;
+	padding: 40px 0;
+	.form-block {
+		margin-top: 40px;
+	}
+}

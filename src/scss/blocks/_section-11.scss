@@ -1,0 +1,49 @@
+.section-11 {
+	position: relative;
+	.contacts-block {
+		position: absolute;
+		top: 50%;
+		margin-top: -162px;
+		left: 10%;
+		background: #ffffff;
+		padding: 35px 50px;
+		p {
+			font-family: $montserrat-font;
+			font-size: 20px;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-align: center;
+			color: #333333;
+			padding-bottom: 20px;
+			background: url("../img/line-header.png") no-repeat center bottom;
+		}
+		ul {
+			list-style-type: none;
+			padding-left: 0;
+			margin-top: 20px;
+			max-width: 361px;
+			li {
+				padding: 5px 0 5px 50px;
+				margin-bottom: 10px;
+				font-family: $montserrat-font;
+				font-size: 18px;
+				color: #333333;
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+			.mobile {
+				background: url("../img/mobile-icon.png") no-repeat left center;
+			}
+			.phone {
+				background: url("../img/phone-icon.png") no-repeat left center;
+			}
+			.email {
+				background: url("../img/email-icon.png") no-repeat left center;
+			}
+			.address {
+				background: url("../img/place-icon.png") no-repeat left center;
+			}
+		}
+	}
+}

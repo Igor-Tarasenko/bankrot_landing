@@ -1,0 +1,41 @@
+header {
+	background: #f0f5f7;
+	color: #333333;
+	font-family: $montserrat-font;
+	font-size: 14px;
+	font-weight: lighter;
+	padding: 10px 0;
+	position: relative;
+	.header-main-block {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.header-address {
+		background: url("../img/place-icon.png") no-repeat left;
+		padding: 7px 0 7px 40px;
+	}
+	.header-email {
+		background: url("../img/email-icon.png") no-repeat left;
+		padding: 7px 0 7px 40px;
+	}
+	.header-mobile {
+		background: url("../img/mobile-icon.png") no-repeat left;
+		padding: 7px 0 7px 40px;
+	}
+	.header-phone {
+		background: url("../img/phone-icon.png") no-repeat left;
+		padding: 7px 0 7px 40px;
+	}
+	.social-icons-block {
+		position: absolute;
+		right: 0;
+		top: 200px;
+		list-style-type: none;
+		padding-left: 0;
+		text-align: right;
+		li {
+			margin-top: 5px;
+		}
+	}
+}

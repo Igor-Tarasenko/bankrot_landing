@@ -1,0 +1,273 @@
+@media screen and (max-width: 1999px) {
+  header .header-address, header .header-email,
+  header .header-mobile, header .header-phone {
+    padding: 7px 0 7px 31px;
+  }
+  .section-4 {
+    background: url(../img/section-bg2.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .section-1 .section-1_description p {
+    font-size: 14px;
+  }
+  .section-2 h2, .section-3 h2, .section-4 h2, .section-6 h2,
+  .section-7 h2, .section-8 h2, .section-10 h2, .section-9 h2 {
+    font-size: 36px;
+  }
+  .section-2 .section-2_border p {
+    font-size: 16px;
+  }
+  .section-2 .section-2_our-company p, .section-2 .section-2_other-company p {
+    font-size: 16px;
+  }
+  .section-2 .section-2_our-company ul li p, .section-2 .section-2_other-company ul li p {
+    font-size: 14px;
+  }
+  .section-2 .section-2_description p {
+    font-size: 14px;
+  }
+  .section-3 .section-3_description p:first-child {
+    font-size: 16px;
+  }
+  .section-3 .section-3_description p {
+    font-size: 14px;
+  }
+  .section-3 .bold-text {
+    font-size: 20px;
+  }
+  .section-3 .fiz-block p, .section-3 .ur-block p {
+    font-size: 16px;
+  }
+  .section-3 .fiz-block ul li p, .section-3 .ur-block ul li p {
+    font-size: 14px;
+  }
+  .section-3 .fiz-block ul li, .section-3 .ur-block ul li {
+    margin-bottom: 10px;
+  }
+  .section-3 .restriction p {
+    font-size: 14px;
+  }
+  .text-block p {
+    font-size: 14px;
+  }
+  .form-block p {
+    font-size: 17px;
+  }
+  .section-4 p {
+    font-size: 16px;
+  }
+  .section-4 p:last-child {
+    font-size: 20px;
+  }
+  .section-5 .section-5_description p {
+    font-size: 20px;
+  }
+  .section-5 .for-fiz-face p, .section-5 .for-ur-face p {
+    font-size: 14px;
+  }
+  .section-5 .for-fiz-face ul li, .section-5 .for-ur-face ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .section-5 .bold-text {
+    font-size: 17px;
+  }
+  .section-6 p {
+    font-size: 14px;
+  }
+  .section-7 p {
+    font-size: 14px;
+  }
+  .section-7 h3 {
+    font-size: 20px;
+  }
+  .section-8 h3, .section-10 h3 {
+    font-size: 20px;
+  }
+  .section-8 .stages p, .section-10 .stages p {
+    font-size: 14px;
+  }
+  .section-9 .question .spoiler-title p {
+    font-size: 16px;
+  }
+  .section-9 .question .spoiler-body p {
+    font-size: 14px;
+  }
+  .section-11 .contacts-block p {
+    font-size: 16px;
+  }
+  .section-11 .contacts-block ul li {
+    font-size: 14px;
+  }
+  .section-11 .contacts-block {
+    left: 10px;
+    padding: 35px 35px;
+  }
+  .section-1 .section-1_form-block p {
+    font-size: 12px;
+  }
+  .section-1 .section-1_title h1 {
+    font-size: 21px;
+  }
+  .section-1 .section-1_title ul {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .section-1 {
+    background: url(../img/first-bg.png) no-repeat left center;
+    background-size: cover;
+    height: auto;
+  }
+  .section-2_our-company {
+    margin-top: 25px;
+  }
+  .section-3 .title-list, .section-3 .margin-block2, .section-3 .margin-block {
+    margin-top: 20px;
+  }
+  .form-block p {
+    margin-bottom: 0;
+  }
+  .form-block input {
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .section-7 .result .first-img, .section-7 .result .second-img, .section-7 .result .third-img {
+    background-size: contain;
+  }
+  .section-7 {
+    background: url(../img/waves.png) center;
+    background-size: cover;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .section-11 .contacts-block {
+    max-width: 330px;
+  }
+  footer img {
+    width: 100%;
+  }
+  footer ul li {
+    margin-right: 0;
+  }
+  .social-icon {
+    width: 40px;
+    height: 40px;
+  }
+  header .header-main-block {
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  header .header-address, header .header-email, header .header-mobile, header .header-phone {
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  header .social-icons-block {
+    position: relative;
+    right: 0;
+    top: 0;
+    li {
+      display: inline-block;
+    }
+  }
+  .section-2 h2, .section-3 h2, .section-4 h2, .section-6 h2, .section-7 h2, .section-8 h2, .section-10 h2, .section-9 h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .section-2 .section-2_border {
+    margin-bottom: 20px;
+    p {
+      font-size: 14px;
+    }
+  }
+  .section-6 .steps {
+    min-height: 250px;
+  }
+  .section-9 .question .spoiler-title p {
+    font-size: 14px;
+  }
+  footer ul {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .section-11 .contacts-block {
+    position: relative;
+    top:0;
+    left:0;
+    margin: 0 auto;
+  }
+  .section-11 iframe {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .logo img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 518px) {
+  header .header-main-block {
+    display: block;
+    text-align: center;
+  }
+  header .header-email {
+    background-position: 26% 8px;
+  }
+  header .header-mobile {
+    background-position: 35% 3px;
+  }
+  header .header-phone {
+    background-position: 40% 3px;
+  }
+  header .social-icons-block {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 464px) {
+  header .header-email {
+    background-position: 22% 8px;
+  }
+  header .header-mobile {
+    background-position: 33% 3px;
+  }
+  header .header-phone {
+    background-position: 38% 3px;
+  }
+}
+@media screen and (max-width: 406px) {
+  header .header-email {
+    background-position: 17% 8px;
+  }
+  header .header-mobile {
+    background-position: 30% 3px;
+  }
+  header .header-phone {
+    background-position: 36% 3px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .section-1 .list-block {
+    display: block;
+  }
+  header .header-email {
+    background-position: 12% 8px;
+  }
+  header .header-mobile {
+    background-position: 27% 3px;
+  }
+  header .header-phone {
+    background-position: 33% 3px;
+  }
+}
+@media screen and (max-width: 333px) {
+  .social-icon {
+    width: 35px;
+    height: 35px;
+  }
+  .section-1 .section-1_form-block .btn {
+    padding-left: 0;
+    font-size: 16px;
+  }
+}
